@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "Bokis";
+  src: url("../public/fonts/Bokis-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("../public/fonts/Helvetica.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Helvetica-compressed";
+  src: url("../public//fonts/helvetica-compressed.otf") format("opentype");
+}
+@font-face {
+  font-family: "helvetica-bold";
+  src: url("../public/fonts/Helvetica-Bold.ttf") format("truetype");
+}
+
+@theme {
+  --color-main: #ebe9e4;
+  --color-active: #c23643;
+}
+
+.container {
+  position: relative;
+}
+.foot {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+}
+/*
+.container .me {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+.helvetica {
+  font-family: "Helvetica", sans-serif;
+}
+.helvetica-compressed {
+  font-family: "Helvetica-compressed", sans-serif;
+}
+.helvetica-bold {
+  font-family: "helvetica-bold", sans-serif;
+}
+.bokis {
+  font-family: "Bokis";
+}
