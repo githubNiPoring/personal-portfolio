@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 import type { Variants } from "motion/react";
 
 import christian from "../public/assets/CHRISTIAN.png";
-import me from "../public/assets/ME.png";
+import me from "../public/assets/me.png";
 import tech_stack from "../public/assets/tech stack.png";
 
 import About from "./components/about";
