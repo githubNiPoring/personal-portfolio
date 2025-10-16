@@ -74,12 +74,6 @@ function App() {
     );
   };
 
-  const navVariants: Variants = {
-    hidden: { opacity: 0, y: -20 },
-    visible: { opacity: 1, y: 40 },
-    sticky: { opacity: 1, y: 0, scale: 1 },
-  };
-
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
@@ -107,18 +101,6 @@ function App() {
       x: 0,
       transition: { duration: 0.8, ease: "easeOut" },
     },
-  };
-
-  const navItemVariants: Variants = {
-    hidden: { opacity: 0, y: -10 },
-    visible: (i: number) => ({
-      opacity: 1,
-      y: 0,
-      transition: {
-        delay: 0.3 + i * 0.1,
-        duration: 0.5,
-      },
-    }),
   };
 
   const scaleOnHover = {
